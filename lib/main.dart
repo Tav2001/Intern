@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           Text(
-                            'TRAN VU KHA',
+                            'TRAN ANH VAN',
                             style: TextStyle(
                               fontSize: 30.0,
                               fontWeight: FontWeight.bold,
