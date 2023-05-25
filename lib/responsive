@@ -1,0 +1,13 @@
+@override
+Widget build(BuildContext context) {
+  final screenWidth = MediaQuery.of(context).size.width;
+  if (screenWidth < 600.0) {
+    return _buildPhoneLayout();
+  }
+  else if (screenWidth < 1000.0) {
+    return _buildTabletLayout();
+  }
+  else {
+    return _buildDesktopLayout();
+  }
+}
